@@ -10,8 +10,8 @@ package:
 source:
   fn: nnet_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/nnet_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/nnet/nnet_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/nnet_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/nnet/nnet_{{ version }}.tar.gz
   sha256: 2723523e8581cc0e2215435ac773033577a16087a3f41d111757dd96b8c5559d
 
 
